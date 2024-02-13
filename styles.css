@@ -1,0 +1,46 @@
+body {
+    background-color: #ECF7FF;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECF7FF; 
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #072AC8; /* Color de texto de los enlaces */
+}
+
+.contact-btn {
+    background-color: #007bff; /* Color del botón Contact Us */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-btn:hover {
+    background-color: #0056b3; /* Color del botón Contact Us al pasar el mouse */
+}
+
+/* Estilos específicos para el logo */
+.logo img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+}
