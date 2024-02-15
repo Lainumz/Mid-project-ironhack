@@ -1,5 +1,6 @@
 body {
     background-color: #ECF7FF;
+    margin: 0 130px;
 }
 
 /* Navbar */
@@ -8,7 +9,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: #ECF7FF; 
-    padding: 10px 20px;
 }
 
 .nav-links {
@@ -38,9 +38,54 @@ nav {
     background-color: #0056b3; /* Color del botón Contact Us al pasar el mouse */
 }
 
-/* Estilos específicos para el logo */
 .logo img {
-    width: 50px;
-    height: 50px; 
-    border-radius: 50%; 
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
+/* Estilos específicos para la primera sección */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-content {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 200px;
+}
+
+.right-content {
+    flex: 1;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-content img {
+    width: 100%;
+    height: auto;
+    max-width: 570px;
+    max-height: 650px;
+}
+
+.description {
+    color: #072AC8;
+}
+
+
