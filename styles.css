@@ -15,6 +15,7 @@ nav {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-weight: bold;
 }
 
 .nav-links li {
@@ -27,7 +28,7 @@ nav {
 }
 
 .contact-btn {
-    background-color: #007bff; /* Color del botón Contact Us */
+    background-color: #072AC8; /* Color del botón Contact Us */
     color: #fff; /* Color del texto del botón */
     border: none;
     padding: 10px 20px;
@@ -82,10 +83,30 @@ img {
     height: auto;
     max-width: 570px;
     max-height: 650px;
+    margin-top: 30px;
 }
 
 .description {
     color: #072AC8;
 }
+
+.get-in-touch-btn{
+    background-color: #072AC8; /* Color del botón Contact Us */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-our-work-link{
+    margin-left: 30px;
+    color: #072AC8;
+    font-weight: bold;
+    text-decoration: none; /* Eliminar subrayado del enlace */
+
+}
+
+
 
 
