@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", function() {
     form.addEventListener("submit", function(event) {
         event.preventDefault();
 
-        // Ocultar todos los mensajes de error al intentar enviar el formulario nuevamente
+        
         missingDataError.style.display = "none";
         emailError.style.display = "none";
         phoneError.style.display = "none";
         messageError.style.display = "none";
         successMessage.style.display = "none";
 
-        // Validar los campos del formulario
+        
         const name = document.getElementById("name").value.trim();
         const email = document.getElementById("email").value.trim();
         const phone = document.getElementById("phone").value.trim();
@@ -44,25 +44,25 @@ document.addEventListener("DOMContentLoaded", function() {
             isValid = false;
         }
 
-        // Si todos los campos son válidos, enviar el formulario
+        
         if (isValid) {
-            // Aquí puedes agregar código para enviar el formulario, por ejemplo:
-            // form.submit();
+            
+          
             successMessage.style.display = "block";
-            // Resetear el formulario después de enviarlo
+            
             form.reset();
         }
     });
 
-    // Función para validar el formato del correo electrónico
+    
     function validateEmail(email) {
         const re = /\S+@\S+\.\S+/;
         return re.test(email);
     }
 
-    // Función para validar el formato del número de teléfono
+   
     function validatePhone(phone) {
-        // Este es solo un ejemplo básico de validación, puedes ajustarlo según tus necesidades
+        
         return phone.startsWith("+");
     }
 });
